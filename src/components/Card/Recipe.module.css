@@ -1,0 +1,54 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ee8c4b;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0 2px 8px #ee8c4b;
+}
+
+.card > img {
+    width: 100%;
+     height: auto;
+     border-radius: 5px;
+     border:1px solid #ee8c4b ;
+     box-shadow: 0 2px 8px #ee8c4b;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.update{
+  border:1px solid green;
+  border-radius: 5px;
+  color:green;
+  padding: 5px;
+  cursor: pointer;
+  background-color: white;
+
+}
+
+.update:hover{
+  box-shadow: 0 1px 3px green;
+}
+
+.delete{
+  color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+}
+
+.delete:hover{
+  box-shadow: 0 1px 3px red;
+
+}
