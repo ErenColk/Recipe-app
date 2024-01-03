@@ -1,0 +1,65 @@
+
+
+.nav {
+  background-color: #646965;
+  height: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  margin-top: -8px;
+
+}
+
+.recipe-platform {
+  margin-left: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  color: chocolate;
+}
+
+.menu > ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.menu > ul > li  {
+  margin-right: 20px;
+  list-style: none !important;
+  text-decoration: none !important;
+  color: white !important;
+}
+.link,a{ 
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.slider-container {
+  width: 50px;
+  height: 25px;
+  background-color: lightblue;
+  border-radius: 25px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.slider-button {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2.5px;
+  left: 2.5px;
+  transition: left 0.3s ease;
+}
+
+.slider-container.dark .slider-button {
+  left: calc(100% - 22.5px);
+}

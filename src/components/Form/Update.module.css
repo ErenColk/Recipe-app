@@ -1,0 +1,56 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+}
+
+.update {
+  margin: auto;
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(5, 25, 25, 0.6);
+  margin-top: 20px;
+}
+
+.form > input {
+  border-radius: 5px;
+}
+
+.form > textarea {
+  border-radius: 5px;
+  resize: vertical;
+}
+
+.form > input {
+  border-radius: 5px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.buttons > button {
+
+  justify-content: space-between;
+  background-color: rgb(166, 205, 166);
+  color: aliceblue;
+  width: 25%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+
+
+.buttons>button:hover {
+  box-shadow: 0 3px 5px rgba(4, 249, 0, 0.6);
+  background-color: green;
+}
+
+
+.cancel:hover {
+    box-shadow: 0 3px 5px rgb(255, 85, 0) !important;
+    background-color: red !important;
+}
